@@ -4,6 +4,12 @@
 
 .hero-img {
     background-color: gray;
-    height: 200px;
-    width: 350px;
+    height: 300px;
+    width: 500px;
 }
+
+.fish-img {
+    height: 150px;
+    width: 200px;
+}
+
