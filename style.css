@@ -13,3 +13,31 @@
     width: 200px;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
