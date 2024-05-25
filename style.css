@@ -1,11 +1,14 @@
 * {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .hero-img {
     background-color: gray;
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 100%;
 }
 
 .fish-img {
@@ -18,8 +21,32 @@
     flex-direction: column;
 }
 
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.hero,
+.modal {
+    padding: 0 250px;
+}
+
+.hero, .info, .quote, .modal {
+    flex: 1;
+}
+
+.hero {
+    padding-top: 8px;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
@@ -30,13 +57,46 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
 
-.hero,
-.footer {
-    background-color: #1f2937;
+.hero-container {
+    display: flex;
+    gap: 16px;
 }
+
+.hero-text,
+.hero-img-container {
+    flex: 1;
+}
+
+.hero-text > * {
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.secondary,
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: none;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
 
 .quote {
     background-color: #e5e7eb;
